@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d1117;
+    display: flex;
+}
+
+.card {
+    background-color: #fff;
+    width: 40%;
+    height: 53%;
+    margin: auto;
+    padding: 2%;
+}
+
+h1 {
+    color: #0d1117;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.input-box label {
+    font-size: 16px;
+    color: #0d1117;
+}
+
+.input-field input {
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid rgba(55, 65, 81, 1);
+    outline: 0;
+    padding: 0.75rem 1rem;
+    color: #000;
+    font-weight: 500;
+    margin-top: 5px;
+}
+  #sub {
+        display: block;
+        width: 100%;
+        background-color: rgba(118, 139, 250, 1);
+        padding: 0.75rem;
+        text-align: center;
+        color: rgba(17, 24, 39, 1);
+        border: none;
+        border-radius: 0,375rem;
+        font-weight: 600;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+    #sub:hover {
+        background-color: rgb(118, 77, 241);
+        transition: 0.3s;
+    }
+
+    .forgot {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 0.75rem;
+        text-decoration: none;
+        color: #0d1117;
+        margin: 8px 0 14px 0;
+        }
+    
+.forgot:hover,
+.signup:hover {
+    text-decoration: underline rgba(167, 139, 250, 1);
+    transition: 0.3s;
+}
+
+.signup {
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color:#0d1117;
+    text-align: center;
+}
+
+.github {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link {
+    color: #0d1117;
+    margin: 8px 0 14px 0;
+}
+
+.link:hover {
+    text-decoration: underline rgba(167, 139, 250, 1);
+    transition: 0.3s;
+}
